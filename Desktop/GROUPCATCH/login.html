@@ -3,7 +3,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="stylesheet" href="style.css">
 <!------ Include the above in your HEAD tag ---------->
-
+<body>
 <form>
   <div style= "float: left;width: 18%;
   margin: 120px auto;
@@ -63,6 +63,35 @@
                   <div class="line"></div>
                 </div>
      </label>
-      <button type="button" class="btn float-left">Sign up</button>
+      <button type="button" class="btn float-left" id="button_Sign_up">Sign up</button>
+      <!-- <script type="text/javascript">
+        document.getElementById("button_Sign_up").onclick = function () {
+            location.href = "www.google.com";
+        };
+    </script> -->
       </div>
     </form>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCZxVkV2wL5PzRtirZs0MdlW80ntq8_iwQ",
+    authDomain: "groupcatch-b2350.firebaseapp.com",
+    databaseURL: "https://groupcatch-b2350.firebaseio.com",
+    projectId: "groupcatch-b2350",
+    storageBucket: "groupcatch-b2350.appspot.com",
+    messagingSenderId: "144328285007",
+    appId: "1:144328285007:web:cf8d979251257ec8c5033a",
+    measurementId: "G-CF9CZ4JHC5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
