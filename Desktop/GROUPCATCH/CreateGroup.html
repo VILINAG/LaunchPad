@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="CreateGroup.css">
+
+<h1 style="text-align: center; width: 80%;" class="title">GROUPCATCH</h1>
+
+<body>
+<form>
+<div style="width:25%;
+  margin: 150px auto;
+  background: #efefef;
+  padding: 20px 60px 10px 10px;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);">
+<label>
+  <h1 class= "head" style="text-align: center;">Enter Meeting Spot:</h1>
+  <form class ="drop" style="text-align: center;" action="/action_page.php">
+    <select name="places">
+      <option value="None">None</option>
+      <option value="WALC">WALC</option>
+      <option value="HSSE">HSSE</option>
+      <option value="KRACH">KRACH</option>
+      <option value="PMU">PMU</option>
+    </select>
+    <br><br>
+    <button class="button" >Enter</button>
+  </form>
+</label>
+
+  <label>
+  <h1 class= "head" style="text-align: center;">Enter Meeting Time:</h1>
+  <form class="drop" style="text-align: center;" action="/action_page.php">
+    <select name="time">
+      <option value="None">None</option>
+      <option value="3:30 - 4:30">3:30 - 4:30</option>
+      <option value="4:30 - 5:30">4:30 - 5:30</option>
+      <option value="5:30 - 6:30">5:30 - 6:30</option>
+      <option value="6:30 - 7:30">6:30 - 7:30</option>
+    </select>
+    <br><br>
+    <button class="button" >Enter</button>
+  </form>
+</label>
+
+  <label>
+  <h1 class= "head" style="text-align: center;">Enter Meeting Days:</h1>
+  <form  class= "drop"  style="text-align: center;" action="/action_page.php">
+    <select name="days">
+      <option value="None">None</option>
+      <option value="MW">MW</option>
+      <option value="TR">TR</option>
+      <option value="WF">WF</option>
+      <option value="MWF">MWF</option>
+    </select>
+    <br><br>
+    <button class="button" >Enter</button>
+  </form>
+</label>
+
+</form>
+</body>

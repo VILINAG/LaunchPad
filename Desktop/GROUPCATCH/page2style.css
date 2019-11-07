@@ -1,0 +1,67 @@
+body {
+    background-image: url("background.png");
+  }
+ h1{
+margin: 10%;  
+width: 100%;
+  position: absolute;
+  top: -1.6em;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 3em;
+  letter-spacing: 5px;
+  color: rgb(120,120,120);
+  transition: ease .3s;
+ } 
+  label {
+    display: block;
+    position: relative;
+    margin: 15px 0px;
+  }
+  .label-txt {
+    position: absolute;
+    top: -1.6em;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: rgb(120,120,120);
+    transition: ease .3s;
+  }
+  .ot {
+    display: inline-block;
+    padding: 10px 15px;
+    background: rgb(220,220,220);
+    font-weight: bold;
+    color: rgb(120,120,120);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+  }
+  .btn{
+    position: absolute;
+    padding: 10px 15px;
+    background: rgb(220,220,220);
+    font-weight: bold;
+    color: rgb(120,120,120);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+
+  }
+  
+  .btn:hover {
+    background: #8BC34A;
+    color: #ffffff;
+  }
+  button:hover {
+    background: #8BC34A;
+    color: #ffffff;
+  }
+
+
+

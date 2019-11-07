@@ -26,7 +26,7 @@
       <div class="line"></div>
     </div>
   </label>
-  <button type="button" class="btn float-right">Login</button>
+  <input type="button" value="Login" onclick="window.location.href='page2.html'"/>
   </div>
 </form>
 
@@ -64,12 +64,7 @@
                   <div class="line"></div>
                 </div>
      </label>
-      <button type="button" class="btn float-left" id="button_Sign_up">Sign up</button>
-      <!-- <script type="text/javascript">
-        document.getElementById("button_Sign_up").onclick = function () {
-            location.href = "www.google.com";
-        };
-    </script> -->
+     <input type="button" value="Sign Up" onclick="window.location.href='page2.html'"/>
       </div>
     </form>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -78,21 +73,5 @@
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-analytics.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyCZxVkV2wL5PzRtirZs0MdlW80ntq8_iwQ",
-    authDomain: "groupcatch-b2350.firebaseapp.com",
-    databaseURL: "https://groupcatch-b2350.firebaseio.com",
-    projectId: "groupcatch-b2350",
-    storageBucket: "groupcatch-b2350.appspot.com",
-    messagingSenderId: "144328285007",
-    appId: "1:144328285007:web:cf8d979251257ec8c5033a",
-    measurementId: "G-CF9CZ4JHC5"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
+<script type="text/javascript" src="script.js"></script>
 </body>

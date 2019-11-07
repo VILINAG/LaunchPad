@@ -74,7 +74,7 @@ label {
   top: -3em;
 }
 
-button {
+input {
   display: inline-block;
   padding: 12px 24px;
   background: rgb(220,220,220);
@@ -87,7 +87,7 @@ button {
   transition: ease .3s;
 }
 
-button:hover {
+input:hover {
   background: #8BC34A;
   color: #ffffff;
 }
